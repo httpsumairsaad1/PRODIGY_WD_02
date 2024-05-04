@@ -50,7 +50,25 @@ body {
 .buttons button:hover{
     background-color: #febc37; 
 }
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 800px;
+    }
+}
 
+/* For smaller screens like mobile phones */
+@media screen and (max-width: 767px) {
+    .container {
+        padding: 15px;
+        border-radius: 50px;
+    }
+    .timer-Display {
+        font-size: 50px;
+    }
+    .buttons button {
+        padding: 8px 15px;
+    }
+}
 
 
 
